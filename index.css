@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  background-color: #f7fdfc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  border: 1px solid red;
+  width: 1200px;
+  display: flex;
+}
+.card-one {
+  border: 1px solid green;
+  flex: 50%;
+}
+.card-second {
+  flex: 50%;
+  background-color: #ffffff;
+}
+.card-2-inside {
+  margin: 35px;
+}
+
+/* form */
+.namee,
+.gnb,
+.wei-hei {
+  display: flex;
+  gap: 10px;
+}
+
+.input1 {
+  padding: 15px 10px;
+}
