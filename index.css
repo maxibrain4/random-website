@@ -122,6 +122,11 @@ a {
 .unseen-downtext {
   display: none;
 }
+.label {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
 /* mobile */
 
 /*
@@ -192,6 +197,8 @@ a {
 
     width: 95%;
     margin-top: 20px;
+    /* font-size: 14px; */
+    font-weight: 600;
   }
   .maindtext {
     text-align: center;
