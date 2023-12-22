@@ -3,6 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Nunito+Sans:wght@300;600;800&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="index.css" />
     <title>Random website</title>
   </head>
@@ -10,19 +17,22 @@
     <div class="container">
       <div class="card">
         <div class="card-one">
-          <div><img src="/Logo.png" alt="" /></div>
+          <div class="logo-div"><img src="/Logo.png" alt="" class="logo" /></div>
           <p class="small-header">For Individuals</p>
           <p class="small-text">
             Start benefiting from the wellness experience. For companies looking
             on increasing productivity, and improving organization wellness
           </p>
+          <p class="unseen">
+            Inspiring wholesome harmony for mind, body and spirit, for everyone, everywhere.
+          </p>
         </div>
         <div class="card-second">
           <div class="card-2-inside">
-            <div class="form">
+            <form class="form">
               <div class="namee">
                 <div class="firstname">
-                  <p>First Name</p>
+                  <p class="label">First Name</p>
                   <input type="text" name="" id="" class="input1" />
                 </div>
 
@@ -34,51 +44,124 @@
               <div class="gnb">
                 <div class="gender">
                   <p>gender</p>
-                  <select name="" id="">
+                  <select name="" id="" class="input2">
                     <option value="">Male</option>
                     <option value="">Female</option>
                   </select>
                 </div>
                 <div class="DOB">
                   <p>Date of Birth</p>
-                  <input type="date" name="" id="" />
+                  <input type="date" name="" id="" class="input2" />
                 </div>
               </div>
-            </div>
+         
             <div class="wei-hei">
               <div class="weight">
                 <p>Weight(KG)</p>
-                <input type="text" placeholder="Enter Weight" />
+                <input type="text" placeholder="Enter Weight" class="input3" />
               </div>
               <div class="height">
                 <p>Height(CM)</p>
-                <input type="text" placeholder="Enter Height" />
+                <input type="text" placeholder="Enter Height" class="input3" />
               </div>
             </div>
             <div class="activity-level">
               <p>Activity Level</p>
-              <select name="" id="">
+              <select name="" id="" class="input4">
                 <option value="">activity1</option>
                 <option value="">activity2</option>
               </select>
             </div>
             <div class="password">
               <p>Password</p>
-              <input type="text" />
+              <input type="password" class="input5" />
             </div>
             <div class="button">
-              <button>Register</button>
+              <button class="button1">Register</button>
             </div>
-            <div>
+            <div class="downtext">
               <p>
                 By clicking Register, you agree to our
                 <span><a href="#">Term of Use</a> </span> and our
                 <span><a href="#">Private Policy</a> </span>
               </p>
             </div>
+
           </div>
+             </form>
+          <!-- end of card 2 -->
+          <div>
+            <div class="card-3-inside">
+              <form class="form2">
+                <div class="firstname2">
+                  <p>First Name</p>
+                  <input type="text" name="" id="" class="input11" />
+                </div>
+
+                <div class="lastname2">
+                  <p>Last Name</p>
+                  <input type="text" name="" id="" class="input11" />
+                </div>
+
+                <div class="gender2">
+                  <p>gender</p>
+                  <select name="" id="" class="input22">
+                    <option value="">Male</option>
+                    <option value="">Female</option>
+                  </select>
+                </div>
+                <div class="DOB2">
+                  <p>Date of Birth</p>
+                  <input type="date" name="" id="" class="input22" />
+                </div>
+          
+              
+                <div class="weight2">
+                  <p>Weight(KG)</p>
+                  <input
+                    type="text"
+                    placeholder="Enter Weight"
+                    class="input33"
+                  />
+                </div>
+                <div class="height2">
+                  <p>Height(CM)</p>
+                  <input
+                    type="text"
+                    placeholder="Enter Height"
+                    class="input33"
+                  />
+                </div>
+             
+              <div class="activity-level2">
+                <p>Activity Level</p>
+                <select name="" id="" class="input44">
+                  <option value="">activity1</option>
+                  <option value="">activity2</option>
+                </select>
+              </div>
+              <div class="password2">
+                <p>Password</p>
+                <input type="password" class="input55" />
+              </div>
+              <div class="button2">
+                <button class="button1">Register</button>
+              </div>
+           
+            </form>
+          </div>
+          <!-- end of mobile card -->
         </div>
+       
       </div>
+          <div class="unseen-downtext">
+                <p class="maindtext">
+                  By clicking Register, you agree to our
+                  <span><a href="#">Term of Use</a> </span> and our
+                  <span><a href="#">Private Policy</a> </span>
+                </p>
+              
+              </div>
     </div>
   </body>
 </html>

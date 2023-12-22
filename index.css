@@ -11,23 +11,27 @@
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  font-family: lato;
 }
 
 .card {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: 1200px;
   display: flex;
+  align-items: center;
 }
 .card-one {
-  border: 1px solid green;
+  /* border: 1px solid green; */
   flex: 50%;
 }
 .card-second {
   flex: 50%;
   background-color: #ffffff;
+  box-shadow: 0 0 10px 1px #ccc;
 }
 .card-2-inside {
   margin: 35px;
+  /* display: none; */
 }
 
 /* form */
@@ -35,9 +39,181 @@
 .gnb,
 .wei-hei {
   display: flex;
-  gap: 10px;
+  gap: 20px;
+  /* justify-content: space-between; */
+  /* width: 100%; */
+  /* border: 1px solid red; */
+  margin-bottom: 20px;
+}
+.password {
+  margin: 20px 0;
+}
+.firstname {
+  flex: 50%;
+  /* border: 1px solid gold; */
+}
+.lastname {
+  flex: 50%;
+  /* border: 1px solid yellow; */
+}
+.input1,
+.input2,
+.input3,
+.input4,
+.input5 {
+  padding: 15px 10px;
+  width: 100%;
+  outline: none;
+  border: 1px solid #ccc;
+}
+.gender {
+  flex: 50%;
+  /* border: 1px solid green; */
+}
+.DOB {
+  flex: 50%;
 }
 
-.input1 {
-  padding: 15px 10px;
+.weight {
+  flex: 50%;
+}
+.height {
+  flex: 50%;
+}
+
+.button1 {
+  padding: 15px 40px;
+  width: 100%;
+  color: #ffffff;
+  background-color: #2ec4b6;
+  border: none;
+  margin-bottom: 20px;
+}
+.downtext {
+  display: grid;
+  place-items: center;
+  font-size: 14px;
+}
+a {
+  color: #47cbbe;
+}
+.small-header {
+  font-size: 30px;
+  font-weight: 600;
+  color: #000000;
+  margin-bottom: 20px;
+}
+.small-text {
+  padding-right: 230px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.logo {
+  width: 100px;
+  margin-bottom: 10px;
+}
+.card-3-inside {
+  display: none;
+}
+.unseen {
+  display: none;
+}
+
+.unseen-downtext {
+  display: none;
+}
+/* mobile */
+
+/*
+
+.button2 {
+} */
+
+@media (max-width: 1255px) {
+  .small-text {
+    padding-right: 150px;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  .card {
+    width: 80%;
+  }
+}
+@media (max-width: 1071px) {
+  .small-text {
+    padding-right: 80px;
+  }
+}
+@media (max-width: 768px) {
+  .logo-div {
+    margin-top: 30px;
+  }
+  .logo {
+    width: 70px;
+  }
+  .container {
+    width: 100%;
+    background-color: #f7fdfc;
+  }
+  .card {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* align-items: center;
+    /* justify-content: center; */
+  }
+  .card-2-inside {
+    /* margin: 35px; */
+    display: none;
+  }
+  .card-3-inside {
+    display: block;
+  }
+  .card-one {
+    width: 95%;
+    margin-bottom: 40px;
+  }
+  .card-second {
+    width: 95%;
+    padding: 30px;
+    flex: 100%;
+  }
+  .small-text {
+    display: none;
+  }
+  .unseen {
+    display: block;
+    color: #c5c9c9;
+  }
+  .unseen-downtext {
+    display: block;
+
+    width: 95%;
+    margin-top: 20px;
+  }
+  .maindtext {
+    text-align: center;
+  }
+  .input11,
+  .input22,
+  .input33,
+  .input44,
+  .input55 {
+    padding: 15px 10px;
+    width: 100%;
+    outline: none;
+    border: 1px solid #ccc;
+  }
+  .firstname2,
+  .lastname2,
+  .gender2,
+  .DOB2,
+  .weight2,
+  .height2,
+  .activity-level2,
+  .password2 {
+    margin-bottom: 20px;
+  }
 }
